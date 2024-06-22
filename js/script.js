@@ -54,7 +54,7 @@ function calcularPrestamo() {
     const pagoTotal = pagoMensual * numeroDeCuotas;
 
     document.getElementById('pagoMensual').innerText = `Pago mensual: $${pagoMensual.toFixed(2)}`;
-    document.getElementById('pagoTotal').innerText = `Monto total pagado: $${pagoTotal.toFixed(2)}`;
+    document.getElementById('pagoTotal').innerText = `Monto total a pagar: $${pagoTotal.toFixed(2)}`;
 
     document.getElementById('result').style.display = 'block';
 
